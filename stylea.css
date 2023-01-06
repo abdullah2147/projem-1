@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;  
+    font-family: sans-serif;
+}
+body{
+    background-color: aqua;
+}
+
+
+.maincontainer{
+    background-color: bisque;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    
+}
+
+.div{
+    background-color: darkmagenta;
+}
+
